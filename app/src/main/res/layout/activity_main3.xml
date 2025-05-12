@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity3">
+    <AutoCompleteTextView
+        android:id="@+id/auto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자동 완성 텍스트 뷰"
+        android:completionThreshold="2"
+        android:completionHint="이 단어들은 실제 수상하지 않다.">
+    </AutoCompleteTextView>
+    <MultiAutoCompleteTextView
+        android:id="@+id/multi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="멀 티 자동 완성 텍스트 뷰"
+        android:completionThreshold="2"
+        android:completionHint="이 단어들은 실제 수상하지 않다.">
+    </MultiAutoCompleteTextView>
+</LinearLayout>
